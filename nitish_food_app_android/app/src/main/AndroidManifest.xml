@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nitish_food_app_android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-feature android:name="android.hardware.type.watch" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Nitish_food_app_android"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".DeleteFoodActivity4"></activity>
+        <activity android:name=".AddFoodActivity4" />
+        <activity android:name=".AdminDashboardActivity3" />
+        <activity android:name=".AdminLoginActivity2" />
+        <activity android:name=".UserDashboardActivity3" />
+        <activity android:name=".CategoryActivity" />
+        <activity android:name=".UserLoginActivity2" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

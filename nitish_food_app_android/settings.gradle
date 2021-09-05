@@ -1,0 +1,3 @@
+include ':nitish_wear_module'
+include ':app'
+rootProject.name = "nitish_food_app_android"
